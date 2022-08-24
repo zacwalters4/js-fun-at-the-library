@@ -1,5 +1,6 @@
-function createTitle() {
-  
+function createTitle(title) {
+  title = "The " + title
+  return title
 }
 
 module.exports = {
